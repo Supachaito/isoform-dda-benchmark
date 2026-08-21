@@ -1,0 +1,13 @@
+# Example only. Never commit personal absolute paths in the public release.
+
+project_root: "/path/to/Benchmark_Program"
+raw_data_root: "/path/to/raw_or_repository_mirror"
+reference_fasta: "/path/to/uniprotkb_proteome_UP000005640_2026_08_04.fasta"
+
+workflow_outputs:
+  AP_MBR_OFF: "/path/to/AP_MBR_OFF"
+  FP_MBR_OFF: "/path/to/FP_MBR_OFF"
+  MM_MBR_OFF: "/path/to/MM_MBR_OFF"
+  MQ_MBR_OFF: "/path/to/MQ_MBR_OFF"
+
+release_outputs: "/path/to/reproduction_outputs"

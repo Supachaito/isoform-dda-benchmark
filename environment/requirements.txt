@@ -1,0 +1,8 @@
+# Minimal Python packages observed in canonical analysis scripts.
+# Pin exact versions from the analysis computer before public release.
+numpy
+pandas
+scipy
+matplotlib
+h5py
+pyahocorasick

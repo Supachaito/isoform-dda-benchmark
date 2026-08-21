@@ -1,0 +1,6 @@
+# R packages observed in figure/supplementary scripts.
+# Replace with exact package versions/sessionInfo() before public release.
+ggplot2
+dplyr
+tidyr
+patchwork

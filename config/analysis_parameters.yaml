@@ -1,0 +1,44 @@
+release_config_version: "0.1"
+
+study:
+  workflows: [AP, FP, MM, MQ]
+  cell_lines: [C33A, HeLa, SiHa]
+  biological_replicates_per_cell_line: 3
+  total_dda_runs: 9
+  primary_match_between_runs: false
+
+reference:
+  fasta_basename: "uniprotkb_proteome_UP000005640_2026_08_04.fasta"
+  protein_entries: 169637
+  explicitly_suffixed_isoform_entries: 22131
+  preserve_uniprot_isoform_suffix: true
+  il_equivalent_mapping: true
+
+primary_isoform_discriminative_definition:
+  categories:
+    - single_isoform_unique
+    - within_family_subset_discriminative
+
+theoretical_resolvability:
+  missed_cleavages: 2
+  min_peptide_length: 7
+  max_peptide_length: 50
+  proteases: [trypsin, lysc, gluc_e, chymo_fyw]
+  sequence_remap: true
+  nonstandard_residue_handling: "hard barriers during in-silico digestion"
+
+replicate_support:
+  thresholds_within_each_cell_line: ["1/3", "2/3", "3/3"]
+  workflow_threshold_set: "union across C33A, HeLa and SiHa after within-cell-line filtering"
+
+reciprocal_event:
+  strong_up_log2fc_min: 1.0
+  strong_down_log2fc_max: -1.0
+
+entrapment:
+  design: "1:1 protein-level shuffled entrapment"
+  fold: 1
+  fixed_seed: 20260812
+  nominal_protein_fdr: 0.01
+  native_decoy_procedures_preserved: true
+  primary_group_fdp_unit: "reported protein/protein group"

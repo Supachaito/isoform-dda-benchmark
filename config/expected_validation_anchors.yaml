@@ -1,0 +1,51 @@
+# Frozen anchors from the final manuscript analysis.
+# Treat mismatches as a stop condition until explained.
+
+common_reference_peptides:
+  AP: 23767
+  FP: 22674
+  MM: 24543
+  MQ: 18962
+
+primary_isoform_discriminative_peptides:
+  AP: 180
+  FP: 101
+  MM: 149
+  MQ: 70
+
+primary_union:
+  unique_peptide_keys: 297
+  workflow_peptide_incidences: 500
+
+theoretical:
+  theoretical_tryptic_peptides: 3164323
+  primary_discriminative_tryptic_peptides: 129631
+  primary_discriminative_tryptic_pct: 4.10
+  multi_entry_families: 10587
+  trypsin_resolvable_families: 7438
+  trypsin_resolvable_pct: 70.26
+  all_four_proteases_resolvable_pct: 72.62
+
+strict_accessibility:
+  pooled_accessible_families: 245
+  pooled_theoretically_resolvable: 195
+  pooled_observed_resolved: 21
+  all4_accessible_families: 81
+  all4_theoretically_resolvable: 59
+  all4_observed_resolved: 7
+
+entrapment_fdp_percent_bounds:
+  FP: {lower: 0.404, combined: 0.808, interpretation: "consistent_with_nominal_1pct"}
+  MQ: {lower: 0.491, combined: 0.982, interpretation: "consistent_with_nominal_1pct"}
+  AP: {lower: 0.735, combined: 1.470, interpretation: "inconclusive_bounds_straddle_1pct"}
+  MM: {lower: 0.632, combined: 1.265, interpretation: "inconclusive_bounds_straddle_1pct"}
+
+reciprocal_events:
+  unique_total: 342
+  supported_ge2_workflows: 110
+  supported_ge3_workflows: 44
+  supported_all4_workflows: 15
+
+native_isoform_audit:
+  native_sibling_families_ge2_suffixes: 1660
+  strict_peptide_resolved_sibling_families_ge2_exact_isoforms: 2

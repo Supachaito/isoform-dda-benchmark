@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated manuscript and this archived software release."
+title: "Isoform-aware DDA proteomics benchmark: analysis code"
+type: software
+authors:
+  - family-names: "<FAMILY_NAME>"
+    given-names: "<GIVEN_NAME>"
+version: "0.1.0"
+date-released: "2026-08-21"
+repository-code: "<GITHUB_REPOSITORY_URL>"
+license: "<CHOOSE_LICENSE>"

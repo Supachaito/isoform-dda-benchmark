@@ -1,0 +1,72 @@
+# Large data / proteomics outputs
+*.raw
+*.d
+*.wiff
+*.wiff.scan
+*.mzML
+*.mzXML
+*.mgf
+*.hdf
+*.h5
+*.sqlite
+*.fasta
+*.fa
+*.faa
+*.gz
+*.zip
+*.7z
+*.tar
+*.tiff
+*.tif
+
+# Search-engine result trees / large tables
+**/txt/
+**/combined/
+**/Task1-SearchTask/
+**/output/
+**/results/
+*.parquet
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Release assembly logs that may contain private local paths
+COLLECTION_REPORT.tsv
+PATH_AUDIT.tsv
+
+# Private provenance / local backups
+provenance/frozen_canonical/
+provenance/pre_v1.0.3_public_working/
+
+# Python generated files
+__pycache__/
+*.pyc
+*.pyo
+
+# Local validation / repair artifacts
+PATH_AUDIT*.tsv
+PORTABILITY_REPORT*.tsv
+PRIVATE_PATH_AUDIT*.tsv
+REPAIR_REPORT*.tsv
+SYNTAX_AUDIT*.tsv
+
+# Private provenance
+provenance/
+
+# License decision helper is local only
+LICENSE_CHOOSE_BEFORE_RELEASE.txt
