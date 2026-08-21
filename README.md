@@ -1,4 +1,4 @@
-# Isoform-aware DDA proteomics benchmark — reproducibility release
+# Isoform-aware DDA proteomics benchmark Ã¢â‚¬â€ reproducibility release
 
 This repository is the public-code release structure for a four-workflow DDA benchmark comparing
 AlphaPept (AP), FragPipe (FP), MetaMorpheus (MM), and MaxQuant (MQ) under a common
@@ -8,9 +8,9 @@ isoform-aware reference framework.
 
 The benchmark separates three claims that should not be conflated:
 
-1. **Structural specificity** — what protein entries a measured peptide sequence is compatible with.
-2. **Replicate support** — how consistently that evidence is observed across biological replicates.
-3. **Quantitative reproducibility** — how consistently peptide/SEPEP abundance is measured.
+1. **Structural specificity** Ã¢â‚¬â€ what protein entries a measured peptide sequence is compatible with.
+2. **Replicate support** Ã¢â‚¬â€ how consistently that evidence is observed across biological replicates.
+3. **Quantitative reproducibility** Ã¢â‚¬â€ how consistently peptide/SEPEP abundance is measured.
 
 Native protein or isoform reporting is therefore not treated as equivalent to exact isoform attribution.
 
@@ -18,17 +18,17 @@ Native protein or isoform reporting is therefore not treated as equivalent to ex
 
 The release is organized around the manuscript analysis path:
 
-- `scripts/01_theoretical/` — theoretical isoform resolvability and accessibility ceiling
-- `scripts/02_observed_mapping/` — extraction, I/L-equivalent common-reference remapping, and classification
-- `scripts/03_ambiguity_replicates/` — ambiguity decomposition and replicate-threshold robustness
-- `scripts/04_quantitative_sepep/` — quantitative benchmark, SEPEP analyses, reciprocal-event analyses
-- `scripts/05_entrapment_fdr/` — protein-level shuffled-entrapment QC and audit
-- `scripts/06_native_isoform_audit/` — native suffix-bearing accession and sibling-family audit
-- `scripts/supplementary/` — analyses not required for the main result
-- `config/` — frozen analysis parameters and validation anchors
-- `environment/` — Python/R package records and software-version template
-- `docs/` — run order, release checklist, and canonical-script manifest
-- `tools/` — deterministic collector and release validator
+- `scripts/01_theoretical/` Ã¢â‚¬â€ theoretical isoform resolvability and accessibility ceiling
+- `scripts/02_observed_mapping/` Ã¢â‚¬â€ extraction, I/L-equivalent common-reference remapping, and classification
+- `scripts/03_ambiguity_replicates/` Ã¢â‚¬â€ ambiguity decomposition and replicate-threshold robustness
+- `scripts/04_quantitative_sepep/` Ã¢â‚¬â€ quantitative benchmark, SEPEP analyses, reciprocal-event analyses
+- `scripts/05_entrapment_fdr/` Ã¢â‚¬â€ protein-level shuffled-entrapment QC and audit
+- `scripts/06_native_isoform_audit/` Ã¢â‚¬â€ native suffix-bearing accession and sibling-family audit
+- `scripts/supplementary/` Ã¢â‚¬â€ analyses not required for the main result
+- `config/` Ã¢â‚¬â€ frozen analysis parameters and validation anchors
+- `environment/` Ã¢â‚¬â€ Python/R package records and software-version template
+- `docs/` Ã¢â‚¬â€ run order, release checklist, and canonical-script manifest
+- `tools/` Ã¢â‚¬â€ deterministic collector and release validator
 
 ## Important release rule
 
@@ -46,7 +46,7 @@ copies only the requested canonical filenames and refuses ambiguous matches.
 - I/L-equivalent common-reference remapping: enabled
 - Theoretical digestion:
   - missed cleavages: 2
-  - peptide length: 7–50 aa
+  - peptide length: 7Ã¢â‚¬â€œ50 aa
   - proteases: trypsin, LysC, GluC-E, chymotrypsin F/Y/W
   - conservative sequence remapping: enabled
 - Entrapment database: 1:1 protein-level shuffled entrapment
