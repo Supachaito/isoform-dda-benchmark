@@ -1,9 +1,9 @@
-# Code Availability
+﻿# Code Availability
 
-## Manuscript-ready statement — fill placeholders before submission
+## Manuscript-ready statement â€” fill placeholders before submission
 
 Custom analysis scripts, exact analysis parameters, and software-version records supporting this study
-are available at **<GITHUB_REPOSITORY_URL>**. A versioned archival release is available through
+are available at **https://github.com/Supachaito/isoform-dda-benchmark**. A versioned archival release is available through
 **<ZENODO_DOI_OR_ARCHIVE_URL>**. The repository contains the scripts used for theoretical
 isoform-resolvability analysis, common-reference peptide remapping, replicate-support analyses,
 quantitative/SEPEP analyses, shuffled-entrapment evaluation, and native isoform-output auditing.
