@@ -8,4 +8,4 @@ The manuscript-associated software release (v1.0.0) is permanently archived in Z
 
 The repository contains the scripts used for theoretical isoform-resolvability analysis, common-reference peptide remapping, replicate-support analyses, quantitative/SEPEP analyses, shuffled-entrapment evaluation, and native isoform-output auditing.
 
-Raw and processed mass-spectrometry data will be made available through a public proteomics repository. The repository name and accession will be added when assigned.
+Raw and processed mass-spectrometry data are available through ProteomeXchange/PRIDE under accession PXD083029.

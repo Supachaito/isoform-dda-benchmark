@@ -7,7 +7,7 @@ This repository contains the public analysis code and reproducibility resources 
 The benchmark separates three claims that should not be conflated:
 
 1. **Structural specificity** - what protein entries a measured peptide sequence is compatible with.
-2. **Replicate support** - how consistently that evidence is observed across biological replicates.
+2. **Replicate support** - how consistently that evidence is observed across technical replicate injections.
 3. **Quantitative reproducibility** - how consistently peptide or SEPEP abundance is measured.
 
 Native protein or isoform reporting is therefore not treated as equivalent to exact isoform attribution.
@@ -64,9 +64,9 @@ The public code repository is:
 
 https://github.com/Supachaito/isoform-dda-benchmark
 
-A versioned archival release will be preserved through Zenodo.
+The manuscript-associated software release (v1.0.0) is permanently archived in Zenodo at https://doi.org/10.5281/zenodo.22046828.
 
-Large raw and processed proteomics data are not stored directly in this GitHub repository. Repository and accession information for the mass-spectrometry data will be provided in `CODE_AVAILABILITY.md`.
+Large raw and processed proteomics data are not stored directly in this GitHub repository. The mass-spectrometry data are available through ProteomeXchange/PRIDE under accession PXD083029; see `CODE_AVAILABILITY.md`.
 
 ## Citation
 
